@@ -15,6 +15,7 @@ namespace SecurityCamera.WebAPI.Controllers
                 NotificationType.ServerError => StatusCode(500, response),
                 _ => Ok(response),
             };
+
         }
     }
 }
